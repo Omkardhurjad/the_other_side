@@ -1,0 +1,154 @@
+pplease see the requiremnts:
+
+Q: What does the user bring to The Other Side? (Select all that apply)
+
+A: Something they saw — an image, video, article, Something they're in — a personal conflict or situation, Something they believe — an opinion or position, Something they heard — a conversation, a podcast, a speech, They should be able to talk to agent and narrate the situation or just write it up if they prefer or provide weblink  to video, podcast.
+
+Q: What should the agent do first?
+
+A: Jump straight to the other side — no preamble
+
+Q: What's the primary output format?
+
+A: A structured written perspective — factual and grounded
+
+
+
+Q: What should the structured output contain? (Select all that apply)
+
+A: Verified facts that challenge the original view, The emotions driving the other side — not just the logic, Where both sides genuinely overlap, What a neutral third party would say, What the other side actually believes and why, the output must be a video, audio and text
+
+Q: How many perspectives should the output show?
+
+A: Depends on the lens the user picks
+
+Q: What tone should the output have?
+
+A: Warm and human — like a trusted friend
+
+
+
+Q: When you say video output — what does that look like?
+
+A: A fully generated video with voiceover and scene visuals
+
+Q: For audio — whose voice delivers the other side?
+
+A: A voice that adapts to the emotional tone of the content
+
+Q: After the output is delivered — what happens next?
+
+A: A simple reflection prompt — 'what shifted for you?'
+
+
+
+Q: Is this a private tool or a social one — does the user have an identity?
+
+A: Anonymous — no account needed, just use it, 1 and 2
+
+Q: How does this sustain itself?
+
+A: I don't know what's practical, I know users try free stuff and that's easily adapted
+
+Q: Where does someone use The Other Side? (Select all that apply)
+
+A: Chrome Extension — flip anything on any page, Mobile app, Web app, Users must be able to point to the video on the webpage they are on and ask for a different perspective
+
+
+
+Q: On privacy — what matters most to you? (Select all that apply)
+
+A: User reflections stay private, never used for training, Input is never stored — processed and discarded, No personal data collected, not even analytics, Transparent about what is and isn't stored, collect data on errors and may be collect user feedback on output. Basically collect non-personal data to continously improve the product.
+
+Q: On toxic content — what should the agent refuse to flip? (Select all that apply)
+
+A: Content targeting a specific real person with harm, Anything that could radicalize or extremise a view further, anything pronographic, child abuse, anything promoting wrong things. Basically a line we want users to use it to see other view, but not misuse to generate wrong ideas and harmful perspectives.
+
+Q: When the agent hits a guardrail — what should it do?
+
+A: Decline silently and explain why it can't proceed
+
+
+
+Q: Where should guardrails sit in the pipeline?
+
+A: Both — input scan first, intent check second
+
+Q: What should the decline message sound like — in the voice of the product?
+
+A: Keep it warm — 'This one's outside what I can help with, but here's why'
+
+
+
+
+
+so we must collect user feedback as mandatory on output, to ensure the tool is doing fine. the agent must internally rate input output content toxicity rating, voilations etc. May be categorise inputs and outputs and also capture essence of what shifted and may be geographical data country-state
+
+
+
+Q: User feedback after every output — what should we ask? (Select all that apply)
+
+A: Was this perspective new to you?, How fair did the other side feel — 1 to 5, Free text — what shifted for you?, Quality of output and feedback if not satisfield.
+
+Q: What should the agent log internally for every session? (Select all that apply)
+
+A: Topic category — politics, environment, personal, workplace, historical etc, Lens used — which angle was chosen, Toxicity score — input and output rated 0 to 10, Guardrail triggered — yes/no and which layer, Shift score — did the user indicate something changed, Geographic data — country and state only, no city or finer, Output Quality Score
+
+Q: Where does this data go — who sees it?
+
+A: An internal dashboard — team only
+
+
+
+Make sure the output is not robot like, must be to-the-point, with humor scarcasm if possible, not in a bland, one-tone voice, but like a real human.  Must be concise not too long, just enough to keep user interested and convey the message.
+
+
+
+Q: Which of these best captures the voice you're after? (Select all that apply)
+
+A: Adapt the voice based on input, lens and any context provided by the user
+
+Q: Does the voice stay the same across all five lenses?
+
+A: Each lens has its own personality — Empathy Mirror is warmer, Devil's Advocate is sharper
+
+Q: The closing prompt is currently 'What shifted for you?' — in this new voice, does that still work?
+
+A: Make it conversational — like the agent is actually talking to you
+
+
+
+Q: These are the gaps I see — which ones matter to you? (Select all that apply)
+
+A: Trust — why should a user believe the facts cited are actually verified, Edge cases — what if the input has no clear 'other side' — e.g. child abuse, genocide, The agent getting it wrong — what if the other side perspective is factually incorrect, Onboarding — how does a first-time user understand what this is in 10 seconds, Misuse at scale — what if someone uses it to generate 1000 fake 'other sides', adjust the screen to different screens and scales and devices perhaps which anyone from grandma to blind to child to adult can use?
+
+
+
+Q: On TRUST — how should the agent signal a fact is verified?
+
+A: Both — source link + confidence level
+
+Q: On EDGE CASES — when there's no legitimate other side, what should the agent do?
+
+A: Decline and explain — 'some things don't have another side worth hearing'
+
+Q: On GETTING IT WRONG — how do we handle factual errors?
+
+A: Both — agent flags uncertainty + user can report
+
+
+
+Q: ONBOARDING — how does a first-time user get it in 10 seconds?
+
+A: Just throw them in — the experience explains itself
+
+Q: MISUSE AT SCALE — how do we stop bulk fake perspective generation? (Select all that apply)
+
+A: Rate limiting — cap uses per session without an account, Detect patterns — flag repetitive or bulk generation, CAPTCHA or friction for high volume use
+
+Q: ACCESSIBILITY — grandma to blind to child to adult, what's non-negotiable? (Select all that apply)
+
+A: Audio-first mode — full experience without ever reading, High contrast mode available
+
+
+

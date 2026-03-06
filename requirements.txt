@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-multipart
+google-cloud-aiplatform>=1.38.0
+google-cloud-texttospeech
+google-cloud-firestore
+google-adk
+pydantic
+slowapi

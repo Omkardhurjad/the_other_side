@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "The Other Side",
+  "version": "1.0.0",
+  "permissions": ["contextMenus", "storage", "activeTab"],
+  "host_permissions": ["https://your-cloud-run-url.a.run.app/*"],
+  "background": { "service_worker": "background.js" },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"]
+  }]
+}
